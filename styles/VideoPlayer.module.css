@@ -1,0 +1,77 @@
+.videoContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.video {
+  width: 100%;
+  display: block;
+}
+
+.videoControls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.controlButton {
+  background: #ffffff;
+  border: none;
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.controlButton:hover {
+  background: #eaeaea;
+}
+
+.volumeControl,
+.progressBar,
+.speedControl {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.volumeControl input,
+.progressBar input {
+  margin-left: 5px;
+}
+
+/* .progressBar {
+  width: 100%;
+} */
+
+.seekbar{
+  width: 550px;
+}
+
+.speedControl button {
+  background: none;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.speedControl button:hover {
+  color: #eaeaea;
+}
+
+.controlLabel {
+  color: #ffffff;
+}
+
+@media (max-width: 720px) {
+  .videoContainer {
+    width: 300%;
+  }
+}
