@@ -1,0 +1,28 @@
+.thumbnail {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image {
+    display: block;
+    width: 50%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
